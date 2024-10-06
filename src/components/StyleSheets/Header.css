@@ -1,0 +1,31 @@
+.orangewalk{
+    height: 200px;
+    width: 200px;
+}
+.header{
+    height: 100px;
+    width: 1000px;
+    margin-top: 70px;
+    color: #fff;
+    
+  
+}
+
+.flex-container {
+    height: 150px;
+    background-color: black;
+    display: flex;
+    border: 2px solid orange ;
+   
+   
+
+}
+
+.flex-child {
+    flex: 1;
+    
+}  
+
+.flex-child:first-child {
+    margin-right: 10px;
+} 

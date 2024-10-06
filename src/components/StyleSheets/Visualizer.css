@@ -1,0 +1,13 @@
+.visualize-tab{
+    border: 2px solid white;
+    background-color: white;
+    height: 40%;
+    width: 100%;
+    margin-top: 100px;
+} 
+.control-buttons{
+    margin-left: 450px;
+    margin-right: 450px;
+    padding:10px
+}
+
