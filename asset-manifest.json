@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RottingOrange/static/css/main.9da5bc3e.css",
+    "main.js": "/RottingOrange/static/js/main.9f880fe4.js",
+    "index.html": "/RottingOrange/index.html",
+    "main.9da5bc3e.css.map": "/RottingOrange/static/css/main.9da5bc3e.css.map",
+    "main.9f880fe4.js.map": "/RottingOrange/static/js/main.9f880fe4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9da5bc3e.css",
+    "static/js/main.9f880fe4.js"
+  ]
+}
