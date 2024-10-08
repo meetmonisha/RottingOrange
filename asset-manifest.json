@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/RottingOrange/static/css/main.9da5bc3e.css",
-    "main.js": "/RottingOrange/static/js/main.5867ab25.js",
+    "main.js": "/RottingOrange/static/js/main.643b25d5.js",
     "static/media/orange.png": "/RottingOrange/static/media/orange.074f886659e955d849bb.png",
     "index.html": "/RottingOrange/index.html",
     "main.9da5bc3e.css.map": "/RottingOrange/static/css/main.9da5bc3e.css.map",
-    "main.5867ab25.js.map": "/RottingOrange/static/js/main.5867ab25.js.map"
+    "main.643b25d5.js.map": "/RottingOrange/static/js/main.643b25d5.js.map"
   },
   "entrypoints": [
     "static/css/main.9da5bc3e.css",
-    "static/js/main.5867ab25.js"
+    "static/js/main.643b25d5.js"
   ]
 }
