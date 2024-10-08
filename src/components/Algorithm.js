@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import './StyleSheets/Grid.css'
 
 
 function Algorithm(props) {
   const grid = props.grid;
   const [result, setResult] = useState(0);
+
+  useEffect(() => {
+    setResult(0); // Reset result to 0 when reset is triggered
+  }, [props.resetTrigger]);
+
 
   const orangesRotting = function () {
     let minutes = 0;
@@ -77,8 +82,8 @@ function Algorithm(props) {
     setResult(ans)
   };
 
-
-
+  
+  
   return (
     <div>
       <br/>
@@ -89,6 +94,7 @@ function Algorithm(props) {
       <label> Total Minutes taken to Rotten : 
         <br/>
       <h2 className="sqaure">{result}</h2>
+      {result===-1? <>A -1 denotes the presence of a good orange </>:<></>}
       </label>
       </div>
     </div>

@@ -13,6 +13,7 @@ function MyGrid({ rows, columns }) {
   const [grid, setGrid] = useState([]);
   const [displaygrid, setDisplaygrid] = useState([]);
   const [selectedOption, setSelectedOption] = useState("");
+  const [resetTrigger, setResetTrigger] = useState(false);
   // const image=<img src={empty} alt="empty"/>
 
   React.useEffect(() => {
@@ -63,6 +64,7 @@ function MyGrid({ rows, columns }) {
     );
     setGrid(newGrid);           // Reset the grid data
     setDisplaygrid(newdisplayGrid);  // Reset the displayed grid
+    setResetTrigger(prev => !prev);  // Trigger reset in Algorithm component
   };
 
   return (
@@ -113,7 +115,7 @@ function MyGrid({ rows, columns }) {
       </div>
       </div>
       <div className="child4 result">
-      <Algorithm grid={grid} />
+      <Algorithm grid={grid} resetTrigger={resetTrigger} />
       </div>
     </div>
   );
